@@ -1,0 +1,135 @@
+@media only screen and (max-width:1140px){
+body{
+    max-width: 100%;
+}
+    nav ul{
+   margin-left:600px;
+}
+.first{
+    position: absolute;
+    left: 833px;
+}
+.second{
+    position: absolute;
+    left: 917px;
+
+}
+
+.section1 h1{
+    font-size: 40px;
+  line-height: 50px;
+}
+ .section2{
+    display: none;
+}
+.section1 .otif{
+    padding-right: 200px;
+}
+.hero{
+    padding-bottom: 100px;
+}
+.aside-container , .aside-container3{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.aside-container2 {
+    flex-direction: column-reverse;
+}
+.aside1 .data,.aside4 .data2, .aside5 .time{
+    text-align: justify;
+}
+.aside2 .image1{
+  margin-left: 50px;
+}
+.aside4{
+    margin-left: -60px;
+}
+
+.aside6{
+    margin-left: 90px; 
+}
+.contact-container{
+flex-direction: column;
+padding-bottom: 260px;
+padding-left: 100px;
+
+}
+.contact h3{
+    font-size: 30px;
+    font-weight: 600;
+margin-left: -280px;
+}
+.contact p{
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 20px;
+    margin-left: -280px;
+}
+.quote .request{
+    margin-left:-80px;
+    margin-top: 20px;
+}
+
+.footer{
+    margin-left: -50px;
+}
+.grid-container{
+    grid-template-columns: 1fr 1fr 1fr
+}
+.header{
+    margin-top: 15px;
+}
+.footer-bottom{
+    margin-left: 100px;
+}
+
+
+}
+@media only screen and (max-width:940px){
+nav ul{
+  margin: 0 auto;
+}
+.first{
+    position: absolute;
+    left: 230px;
+}
+.second{
+    position: absolute;
+    left: 320px;
+
+}
+.section1 h1{
+    font-size: 20px;
+  line-height: 30px;
+}
+.section1 .otif{
+    padding-right: 200px;
+}
+.hero{
+    padding-bottom: 100px;
+}
+.grid-container{
+    grid-template-columns: 1fr;
+}
+.navbar ul{
+    display: grid;
+    margin-left: -300px;
+    padding-top: 80px;
+    grid-template-columns: 15% 15% 15% 15%;
+}
+.third,.fourth, .fifth, .sixth{
+    display: none;
+}
+.container .fav{
+    margin-top: 20px;
+}
+.container{
+    margin-top: -50px;
+}
+
+
+}
+
+
+
+
